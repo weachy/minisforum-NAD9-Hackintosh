@@ -1,0 +1,80 @@
+5:120  4:127  Found UEFI Acpi 2.0 RSDP at 45834014
+5:120  0:000  Saving ACPI tables from RSDP 45834014 to ACPI\origin ...
+5:120  0:000   45834014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:166  0:046    (Xsdt: 45833728, Rsdt: 45833394)
+5:166  0:000    45833728: 'XSDT', 'A M I', Rev: 1, Len: 252 -> XSDT.aml
+5:211  0:045    45833394: 'RSDT', 'A M I', Rev: 1, Len: 144 -> RSDT.aml
+5:255  0:043    Tables in Xsdt: 27
+5:255  0:000    0. 457a7000: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+5:297  0:042        (Dsdt: 4573C000, Facs: 458D7000, XDsdt: 4573c000, XFacs: 0)
+5:297  0:000        4573c000: 'DSDT', 'A M I', Rev: 2, Len: 437232 -> DSDT.aml
+5:352  0:055        458d7000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:398  0:045    1. 4573b000: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+5:443  0:045    2. 457a9000: 'SSDT', 'Pmax_Dev', Rev: 2, Len: 908 -> SSDT-0-Pmax_Dev.aml
+5:487  0:043    3. 45735000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 23819 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+5:529  0:042        * 1164800664: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1640  53 53 44 54 68 06 00 00 02 80 50 6D 52 65 66 00 Internal length = 1640 -> SSDT-x1_0-Cpu0Ist.aml
+5:573  0:043        * 1164476440: 'SSDT', 'ApIst', Rev: 2, Len: 7087  53 53 44 54 AF 1B 00 00 02 A0 50 6D 52 65 66 00 Internal length = 7087 -> SSDT-x1_1-ApIst.aml
+5:617  0:043        * 1164486936: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 916  53 53 44 54 94 03 00 00 02 19 50 6D 52 65 66 00 Internal length = 916 -> SSDT-x1_2-Cpu0Cst.aml
+5:661  0:043        * 1164464152: 'SSDT', 'ApCst', Rev: 2, Len: 4027  53 53 44 54 BB 0F 00 00 02 84 50 6D 52 65 66 00 Internal length = 4027 -> SSDT-x1_3-ApCst.aml
+5:706  0:044        * 1164485272: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 1210  53 53 44 54 BA 04 00 00 02 6A 50 6D 52 65 66 00 Internal length = 1210 -> SSDT-x1_4-Cpu0Hwp.aml
+5:748  0:042        * 1164455960: 'SSDT', 'ApHwp', Rev: 2, Len: 4152  53 53 44 54 38 10 00 00 02 21 50 6D 52 65 66 00 Internal length = 4152 -> SSDT-x1_5-ApHwp.aml
+5:792  0:043  
+5:792  0:000    4. 45732000: 'SSDT', 'SaSsdt', Rev: 2, Len: 10913 -> SSDT-2-SaSsdt.aml
+5:834  0:042    5. 4572e000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13267 -> SSDT-3-IgfxSsdt.aml
+5:878  0:044    6. 457a8000: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+5:921  0:042    7. 4572d000: 'APIC', 'A M I', Rev: 5, Len: 476 -> APIC.aml
+5:965  0:043    8. 4572c000: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+6:007  0:042    9. 4572a000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 7962 -> SSDT-4-Ther_Rvp.aml
+6:051  0:044    10. 457e9000: 'UEFI', 'A M I', Rev: 1, Len: 72 -> UEFI.aml
+6:094  0:042    11. 45729000: 'NHLT', 'A M I', Rev: 0, Len: 45 -> NHLT.aml
+6:138  0:044    12. 45728000: 'LPIT', 'A M I', Rev: 1, Len: 204 -> LPIT.aml
+6:180  0:042    13. 45724000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10883 -> SSDT-5-PtidDevc.aml
+6:226  0:045    14. 45721000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 9047 -> SSDT-6-TbtTypeC.aml
+6:271  0:045    15. 45720000: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+6:315  0:043    16. 4571f000: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+6:358  0:042    17. 4571d000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6425 -> SSDT-7-UsbCTabl.aml
+6:402  0:043    18. 4571c000: 'SSDT', 'xh_adlLP', Rev: 2, Len: 3032 -> SSDT-8-xh_adlLP.aml
+6:444  0:042    19. 45718000: 'SSDT', 'SocGpe', Rev: 2, Len: 15082 -> SSDT-9-SocGpe.aml
+6:490  0:045    20. 45714000: 'SSDT', 'SocCmn', Rev: 2, Len: 13730 -> SSDT-10-SocCmn.aml
+6:532  0:042    21. 45713000: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-11-ADebTabl.aml
+6:577  0:045    22. 45711000: 'TPM2', 'A M I', Rev: 4, Len: 76 -> TPM2.aml
+6:621  0:044    23. 45712000: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+6:665  0:043    24. 45710000: 'PHAT', 'A M I', Rev: 1, Len: 1521 -> PHAT.aml
+6:709  0:043    25. 45727000: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+6:751  0:042    26. 4570f000: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+6:795  0:043  Found UEFI Acpi 1.0 RSDP at 45834000
+6:795  0:000  Printing ACPI tables from RSDP 45834000 ...
+6:795  0:000   45834000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+6:795  0:000    (Rsdt: 45833000)
+6:795  0:000    45833000: 'RSDT', 'A M I', Rev: 1, Len: 144
+6:795  0:000    Tables in Rsdt: 27
+6:795  0:000    0. 457a7000: 'FACP', 'A M I', Rev: 6, Len: 276
+6:795  0:000        (Dsdt: 4573C000, Facs: 458D7000, XDsdt: 4573c000, XFacs: 0)
+6:795  0:000        4573c000: 'DSDT', 'A M I', Rev: 2, Len: 437232
+6:799  0:003        458d7000: 'FACS', Ver: 2, Len: 64
+6:799  0:000    1. 4573b000: 'FIDT', 'A M I', Rev: 1, Len: 156
+6:799  0:000    2. 457a9000: 'SSDT', 'Pmax_Dev', Rev: 2, Len: 908
+6:799  0:000    3. 45735000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 23819
+6:799  0:000    4. 45732000: 'SSDT', 'SaSsdt', Rev: 2, Len: 10913
+6:799  0:000    5. 4572e000: 'SSDT', 'IgfxSsdt', Rev: 2, Len: 13267
+6:799  0:000    6. 457a8000: 'HPET', 'A M I', Rev: 1, Len: 56
+6:799  0:000    7. 4572d000: 'APIC', 'A M I', Rev: 5, Len: 476
+6:799  0:000    8. 4572c000: 'MCFG', 'A M I', Rev: 1, Len: 60
+6:799  0:000    9. 4572a000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 7962
+6:799  0:000    10. 457e9000: 'UEFI', 'A M I', Rev: 1, Len: 72
+6:799  0:000    11. 45729000: 'NHLT', 'A M I', Rev: 0, Len: 45
+6:799  0:000    12. 45728000: 'LPIT', 'A M I', Rev: 1, Len: 204
+6:799  0:000    13. 45724000: 'SSDT', 'PtidDevc', Rev: 2, Len: 10883
+6:799  0:000    14. 45721000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 9047
+6:799  0:000    15. 45720000: 'DBGP', 'A M I', Rev: 1, Len: 52
+6:799  0:000    16. 4571f000: 'DBG2', 'A M I', Rev: 0, Len: 84
+6:799  0:000    17. 4571d000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6425
+6:799  0:000    18. 4571c000: 'SSDT', 'xh_adlLP', Rev: 2, Len: 3032
+6:799  0:000    19. 45718000: 'SSDT', 'SocGpe', Rev: 2, Len: 15082
+6:799  0:000    20. 45714000: 'SSDT', 'SocCmn', Rev: 2, Len: 13730
+6:799  0:000    21. 45713000: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+6:799  0:000    22. 45711000: 'TPM2', 'A M I', Rev: 4, Len: 76
+6:799  0:000    23. 45712000: 'BGRT', 'A M I', Rev: 1, Len: 56
+6:799  0:000    24. 45710000: 'PHAT', 'A M I', Rev: 1, Len: 1521
+6:799  0:000    25. 45727000: 'WSMT', 'A M I', Rev: 1, Len: 40
+6:799  0:000    26. 4570f000: 'FPDT', 'A M I', Rev: 1, Len: 68
